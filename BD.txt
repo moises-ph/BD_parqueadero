@@ -1,0 +1,9 @@
+ticket_entrada(id_ticket, id_tarifa, hora_entrada, placa)
+
+chek-out(id_out, id_ticket, hora_salida, horas_totales)
+
+FACTURA(id_factura, id_ticket, id_out, costo, sub_total, id_descuento, impuestos, total)
+
+TARIFA(id_tarifa, tipo_vehiculo, costo_tarifa, recargo_nocturno)
+
+DESCUENTOS(id_descuento, id_ticket, monto_descuento)
